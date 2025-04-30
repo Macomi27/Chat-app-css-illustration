@@ -13,6 +13,7 @@ html{
 
 body {
     font-family: 'Rubik', sans-serif;
+    background-color: hsl(270, 20%, 96%);
 }
 
 .container{
@@ -24,10 +25,85 @@ body {
 }
 
 .mobile{
+    width: 50%;
+    border: 1.7rem solid hsl(0, 0%, 100%);
+    border-radius: 3rem;
+    position: relative;
+}
 
+.mobile-content{
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 3rem;
+}
+
+.mob-top{
+    background-color: hsl(0, 0%, 100%);
+    width: 40%;
+    height: 25px;
+    margin-inline: auto;
+    position: absolute;
+    top: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5rem;
+}
+
+.mob-head{
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    padding-block: 2.5rem;
+    border-top-right-radius: 1.7rem;
+    border-top-left-radius: 1.7rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    padding-inline: 2rem;
+}
+
+.mob-head-left{
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+}
+
+.back-arr {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.profile{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.profile-pic{
+    width: 2.5rem;
+    
+}
+.profile-pic img{
+    border-radius: 5rem;
+}
+
+img{
+    width: 100%;
+}
+
+.profile-name h2{
+    font-size: 1.6rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+}
+.profile-name p{
+    font-size: 1rem;
+    opacity: .5;
 }
 
 .content{
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -42,6 +118,7 @@ body {
     font-size: 1.6rem;
     color: hsl(271, 15%, 43%);
     font-weight: 400;
+    opacity: .7;
 }
 
 
