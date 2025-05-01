@@ -29,6 +29,7 @@ body {
     border: 1.3rem solid hsl(0, 0%, 100%);
     border-radius: 3rem;
     position: relative;
+    box-shadow: 4px 4px 30px hsla(271, 36%, 24%, 0.37);
 }
 
 .mobile-content{
@@ -128,6 +129,7 @@ img{
     width: 60%;
     border-radius: 1.5rem;
     border-bottom-left-radius: 0;
+    line-height: 1.5;
 }
 
 .owner .images{
@@ -161,6 +163,41 @@ img{
     width: 60%;
     border-radius: 1.5rem;
     border-bottom-right-radius: 0;
+}
+
+.walk-states{
+    color: hsl(271, 36%, 24%);
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1.2rem 1.2rem 1.2rem .8rem;
+    border-radius: 1.5rem;
+    border-bottom-left-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    color: hsl(0, 0%, 100%);
+    line-height: 1.5;
+}
+
+.walk-time{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.walk-time i{
+    opacity: .6;
+}
+.walk-time p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.price{
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 .type-message{
@@ -209,8 +246,5 @@ img{
     opacity: .7;
 }
 
-
-
-
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
