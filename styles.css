@@ -12,8 +12,35 @@ html{
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: Rubik;
     background-color: hsl(270, 20%, 96%);
+}
+
+.page{
+    position: relative;
+    overflow: hidden;
+}
+
+.right-shade{
+    width: 40%;
+    height: 85%;
+    background-image: hsl(271, 91%, 95%);
+    position: absolute;
+    bottom: 0;
+    right: -15%;
+    border-top-right-radius: 25rem;
+    border-top-left-radius: 25rem;
+}
+
+.left-shade{
+    width: 40%;
+    height: 85%;
+    background-image: linear-gradient(to bottom, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    position: absolute;
+    top: 0;
+    left: -15%;
+    border-bottom-right-radius: 25rem;
+    border-bottom-left-radius: 25rem;
 }
 
 .container{
