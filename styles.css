@@ -24,7 +24,7 @@ body {
 .right-shade{
     width: 40%;
     height: 85%;
-    background-image: hsl(271, 91%, 95%);
+    background-image: hsl(271, 76%, 94%);
     position: absolute;
     bottom: 0;
     right: -15%;
@@ -49,6 +49,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-inline: auto;
+    margin-block: 10rem;
 }
 
 .mobile{
@@ -153,7 +154,7 @@ img{
     font-size: 1.2rem;
     font-weight: 400;
     padding: 1rem;
-    width: 60%;
+    width: 40%;
     border-radius: 1.5rem;
     border-bottom-left-radius: 0;
     line-height: 1.5;
@@ -187,7 +188,7 @@ img{
     font-size: 1.2rem;
     font-weight: 400;
     padding: 1rem;
-    width: 60%;
+    width: 65%;
     border-radius: 1.5rem;
     border-bottom-right-radius: 0;
 }
@@ -203,7 +204,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 75%;
     color: hsl(0, 0%, 100%);
     line-height: 1.5;
 }
@@ -277,17 +278,6 @@ img{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
-@media (max-width: 120rem) {
-    .container{
-        width: 80%;
-    }
-    .mobile{
-        width: 60%;
-    }
-    .content{
-        width: 40%;
-    }
-}
 
 @media (max-width: 76.7rem) {
     .container{
@@ -297,8 +287,19 @@ img{
     .mobile{
         width: 80%;
     }
+    .other .text,
+    .owner .text, .walk-states{
+        width: 50%;
+    }
     .content{
         width: 100%;
+        text-align: center;
+    }
+    .content h1{
+        font-size: 4.4rem;
+    }
+    .content p{
+        font-size: 1.8rem;
     }
 }
 
@@ -310,6 +311,7 @@ img{
     .container{
         width: 80%;
         flex-direction: column;
+        margin-block: 5rem;
     }
     .mobile{
         width: 95%;
@@ -319,12 +321,15 @@ img{
     .owner .text, .walk-states{
         width: 80%;
     }
+    .walk-states{
+        padding: 1.2rem 1.2rem 1.2rem .8rem;
+    }
     .content{
         width: 100%;
         text-align: center;
     }
     .content h1{
-        font-size: 3.6rem;
+        font-size: 4rem;
     }
     .content p{
         font-size: 1.8rem;
