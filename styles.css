@@ -151,11 +151,11 @@ img{
 .other .text{
     color: hsl(264, 100%, 61%);
     background-color: hsla(289, 100%, 72%, 0.127);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
-    padding: 1rem;
-    width: 40%;
-    border-radius: 1.5rem;
+    padding: .8rem;
+    width: 65%;
+    border-radius: 1.2rem;
     border-bottom-left-radius: 0;
     line-height: 1.5;
 }
@@ -167,7 +167,7 @@ img{
 }
 
 .dog-img{
-    width: 5rem;
+    width: 4.5rem;
     
 }
 .dog-img img{
@@ -185,11 +185,11 @@ img{
 .owner .text{
     color: hsl(271, 36%, 24%);
     background-color: hsl(0, 0%, 100%);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
-    padding: 1rem;
-    width: 65%;
-    border-radius: 1.5rem;
+    padding: .8rem;
+    width: 50%;
+    border-radius: 1.2rem;
     border-bottom-right-radius: 0;
 }
 
@@ -218,13 +218,13 @@ img{
     opacity: .6;
 }
 .walk-time p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     opacity: .8;
 }
 
 .price{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
 }
 
